@@ -12,26 +12,18 @@
     max-width: 700px;
 }
 
-.linkpage{
-    padding: 2px 20px;
-    background-color: rgb(100, 140, 214);
-    border-radius: 5px;
-    color: white;
-}
-.linkpage:hover{
-    background-color:deeppink;
-}
-
 .tabela {
     text-align: left;
     padding: 14px;
+    max-width:100%;
+    display: inline-flex;
 }
 .tabela th{
-    padding: 3px 30px;
+    max-width:100%;
     border-bottom: 3px solid gray;
 }
 .tabela td{
-    padding: 3px 30px;
+    max-width:100%;
     border-bottom: 1px solid gray;
 }
 
